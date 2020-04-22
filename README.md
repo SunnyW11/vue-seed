@@ -42,6 +42,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## todo-list
 
+- mixin filter directive  commomUtils
+- ts
 - px自动转化 
 - axios 封装 
 - 组件创建和自动添加路由脚本 
