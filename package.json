@@ -29,6 +29,6 @@
     "vue-template-compiler": "^2.6.11"
   },
   "gitHooks": {
-    "pre-commit": "echo 123"
+    "pre-commit": "lint"
   }
 }
