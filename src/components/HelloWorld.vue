@@ -28,6 +28,7 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+    <div class="test">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius sed deserunt nesciunt! Enim, eveniet voluptatum. Quia placeat, dignissimos dolore id ipsum non provident obcaecati recusandae alias et exercitationem ipsam!</div>
   </div>
 </template>
 
@@ -41,7 +42,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped lang="scss">
 h3 {
   margin: 40px 0 0;
 }
@@ -55,5 +56,8 @@ li {
 }
 a {
   color: #42b983;
+}
+.test{
+  color: $base-color;
 }
 </style>
