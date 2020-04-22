@@ -4,9 +4,8 @@
 
 <script>
 export default {
-  name: "base-text"
+  name: 'base-text'
 };
 </script>
 
-<style>
-</style>
+<style></style>

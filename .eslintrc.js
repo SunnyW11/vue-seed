@@ -3,10 +3,7 @@ module.exports = {
   env: {
     node: true
   },
-  'extends': [
-    'plugin:vue/essential',
-    'eslint:recommended'
-  ],
+  extends: ['plugin:vue/essential', 'eslint:recommended', 'airbnb-base/legacy'],
   parserOptions: {
     parser: 'babel-eslint'
   },
@@ -25,4 +22,4 @@ module.exports = {
       }
     }
   ]
-}
+};

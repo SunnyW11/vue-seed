@@ -8,13 +8,18 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
+@import '@/style/index.scss';
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  #nav {
+    font-size: 50px;
+    color: $base-color;
+  }
 }
 
 #nav {
